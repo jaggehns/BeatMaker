@@ -143,10 +143,8 @@ select {
   .kick,
   .snare,
   .hihat {
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 70%;
-  }
+    display: flex;
+    flex-wrap: wrap;
 
   .tempo,
   .play {
@@ -161,9 +159,8 @@ select {
   .kick,
   .snare,
   .hihat {
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
   }
   }
   .tempo,
