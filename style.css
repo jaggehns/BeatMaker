@@ -136,3 +136,39 @@ select {
     transform: scale(1.2);
   }
 }
+@media screen and (max-width: 1332px) {
+  html {
+    font-size: 53%;
+  }
+  .kick,
+  .snare,
+  .hihat {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 70%;
+  }
+
+  .tempo,
+  .play {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 754px) {
+  html {
+    font-size: 45%;
+  }
+  .kick,
+  .snare,
+  .hihat {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 70%;
+  }
+  }
+  .tempo,
+  .play {
+    align-items: center;
+  }
+}
+
